@@ -1,0 +1,85 @@
+.profileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 570px;
+    color: black;
+    background-color: #f8f9fa;
+    gap: 60px;
+    padding-top: 60px;
+}
+
+.projectsBox {
+    display: grid;
+    grid-template-columns: 175px 175px;
+    grid-template-rows: 175px 175px;
+    padding: 0;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+
+.projectItem {
+    width: 175px;
+    height: 175px;
+    border: 1px solid black;
+    transition: 0.5s;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.projectItem:nth-of-type(1):hover {
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-4px);
+    transform: translateX(-4px);
+}
+
+.projectItem:nth-of-type(2):hover {
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-4px);
+    transform: translateX(4px);
+}
+
+.projectItem:nth-of-type(3):hover {
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(4px);
+    transform: translateX(-4px);
+}
+
+.projectItem:nth-of-type(4):hover {
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(4px);
+    transform: translateX(4px);
+}
+
+.projectTitleGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectTitle {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.projectIcon {
+    height: 35px;
+    width: 35x;
+}
+
+.projectIcon {}
+
+.projectDis {
+    color: black;
+    font-size: 11px;
+    width: 80%;
+}
+
+.projectStacks {}

@@ -1,29 +1,17 @@
 import React from 'react';
-
+import '../assest/intro.css'
 function Intro() {
    return (
-      <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 intro">
-         <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Siddharth Kashyap</h1>
-         <p className="text-base md:text-xl mb-3 font-medium">Software Engineer & Web Developer</p>
-         <p className="text-sm max-w-xl mb-6 font-bold">
-            I'm an indie full-stack developer and content creator building my
-            version of the digital world one step at a time. All coding projects
-            are built from the ground up, from planning and designing all the way
-            to solving real-life problems with code.
-            <br />
-            All video content is built the same way, from ideation and planning,
-            all the way to finalizing the content with artistic touches. I publish
-            that content on my YouTube channel{' '}
-            <a
-               href="https://youtube.com/fknight"
-               target="_blank"
-               className="text-cyan-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
-               rel="noreferrer noopener"
-            >
-               ForrestKnight
-            </a>{' '}
-            to more than 400k subscribers.
-         </p>
+      <div className="introbox">
+         <div className='introSubBox'>
+            <p className='greetText'>Hi my name is,</p>
+            <h1 className="introName">Siddharth Kashyap</h1>
+            <p className="roleIntro">I build things for the web</p>
+            <p className='roleDes'>I am a Pre-final Year student at IIT Guwahati and a</p>
+            <p className='roleDes'>Full Stack Developer with a passion for creating innovative and user-friendly web applications.</p>
+            <a className='resumeButton' href='https://drive.google.com/file/d/1_jYFmm3ziCUiFEQbkisHuTqAwyh8x1m_/view?usp=drive_link' target='_blank'>Resume</a>
+         </div>
+
       </div>
    )
 }
